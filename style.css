@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url('./images/blackbackground.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: #dc5746;
+  font-size: 3rem;
+}
+
+hr {
+  border-color: #b32e1d;
+  border-width: 3px;
+  max-width: 60px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 500px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #dc5746;
+  border-color: #dc5746;
+}
+
+.btn-primary:hover{
+  background-color: #b32e1d;
+  border-color: #b32e1d;
+  size: 4px;
+}
+
+.btn-primary:click{
+  background-color: #b32e1d;
+  border-color: #b32e1d;
+  size: 8px;
+}
+
+
+.buffer {
+  height: 25rem;
+}
